@@ -1,0 +1,131 @@
+
+
+.fundo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.logo{ /*tamanho maximo do titulo e sua cor */
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    filter: invert(1);
+}
+
+header{
+    width: 100%;
+    margin: 0;
+    background-color: white;
+
+}
+
+.menu ul li {
+    display: inline-flexbox;
+    text-align: center;
+}
+
+
+
+.jornal{
+    color: #7ec5ff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.informacoes .descricao{ /*cor das letras e seus espaçamentos e tamanho da font */
+    width: 49%;
+    font-size: 24px;
+    color: #7ec5ff;
+    line-height: 30px;
+    margin-left: 30px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.siteimg1, .siteimg2, .siteimg3, .siteimg4, .siteimg5, .siteimg6, .siteimg7{
+    width: 300px;
+    height: 306px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-top: 5px solid #b9b9fd;
+    border-left: 5px solid #b9b9fd;
+    border-right: 5px solid #b9b9fd;
+    border-bottom: 5px solid #b9b9fd;
+}
+
+.conteudo{ /* forma do texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+
+.lista-de-sites{
+    
+    margin: auto;
+    
+    
+}
+
+.agoravai{
+    margin-left: 110px;
+}
+
+
+button{
+    width: 350px;
+    height: 550px;
+    border-radius: 10px;
+    transform: scale(0.9);
+    animation: ease-in-out 0.5s;
+    margin: auto;
+    
+}
+
+button:hover{
+    transform: scale(1.0);
+    animation: ease-in-out 0.5s;
+    background-color: #7ce5ff;
+    cursor: pointer;
+    .siteimg1, .siteimg2, .siteimg3, .siteimg4, .siteimg5, .siteimg6, .siteimg7{
+        border-top: 10px solid #8585f5;
+        border-left: 10px solid #8585f5;
+        border-right: 10px solid #8585f5;
+        border-bottom: 10px solid #8585f5;
+    }
+
+}
+
+.sitetxt{
+    
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 300px;
+}
+
+
+
+
+

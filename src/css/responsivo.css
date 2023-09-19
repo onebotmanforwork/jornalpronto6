@@ -1,0 +1,40 @@
+@media (max-width: 1280px){
+    
+
+}
+
+@media(max-width: 768px){
+    .agoravai{
+        margin: auto;
+        display: block;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 425px){
+    .agoravai{
+        margin: auto;
+        display: block;
+    }
+
+    .informacoes .descricao{
+        width: 95%;
+      }
+
+    h1{
+        font-size: 30;
+    }
+
+   .descricao{
+    margin: auto;
+    display: block;
+   }
+
+   button{
+    height: 700px;
+   }
+
+   .sitetxt{
+    height: 300px;
+   }
+}
